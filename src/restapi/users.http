@@ -1,0 +1,33 @@
+POST http://localhost:5050/users
+Content-Type: application/json
+
+{
+  "first_name": "Sherozbek",
+  "last_name": "Baxtiyorov",
+  "username": "sherozbek17",
+  "password":"1254"
+}
+
+###
+GET http://localhost:5050/users
+Content-Type: application/json
+
+
+###
+GET http://localhost:5050/users/6s4b670d65ebdee32a790a1d4
+Content-Type: application/json
+
+
+###
+PUT http://localhost:5050/users/64b66a86365d0c3a8543ea34
+Content-Type: application/json
+
+{
+  "first_name": "Asadbek"
+}
+
+
+
+###
+DELETE http://localhost:5050/users/64b66a86365d0c3a8543ea34
+Content-Type: application/json
